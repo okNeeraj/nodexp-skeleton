@@ -12,6 +12,7 @@ Advance nodejs and expressjs skeleton for enterprise level software
 ### Installation
 1. `cd nodexp-skeleton` to go into the project root folder.
 2. `npm install` to install the project's npm dependencies.
+3. Rename a `.env.example` file to `.env`
 
 ### Running locally
 1. `npm run dev` to start the development server with nodemon
