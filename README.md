@@ -1,21 +1,22 @@
 # nodexp-skeleton
 Advance nodejs and expressjs skeleton for enterprise level software
 
-# Installation
-1. Install NodeJs
-    Download NodeJs lattest LTS version from official website of nodejs
+## Getting started
 
-2. Install dependencies
-    npm install
+### Prerequisites
+1. Intall git on your local machine
+2. Node: any 16.x version starting with v16.0.0 or greater [Node installation instructions](https://nodejs.org/en/download/)
+3. NPM : install Node Package Manager (NPM)
+4. A clone of the [nodexp-skeleton repo](https://github.com/okNeeraj/nodexp-skeleton.git) on your local machine
 
-3. Install TypeScript
-    npm install -g typescript
+### Installation
+1. `cd nodexp-skeleton` to go into the project root folder.
+2. `npm install` to install the project's npm dependencies.
 
-4. Install ts-node
-    npm install -g ts-node
+### Running locally
+1. `npm run dev` to start the development server with nodemon
+2. `open http://localhost:8000` to open the site in your favorite browser.
 
-5. Install @types/node
-    npm install @types/node
 
-6. Open you project folder in terminal and hit the below command
-    npm run dev
+# Created with ❤️
+[Follow on Linkedin](https://www.linkedin.com/in/okneerajsingh/)
