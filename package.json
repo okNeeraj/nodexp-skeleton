@@ -1,34 +1,43 @@
 {
-  "name": "nodexp-skeleton",
-  "version": "1.0.0",
-  "description": "Advance nodejs and expressjs skeleton for enterprise level software",
-  "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "dotenv": "^16.0.1",
-    "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "mongoose": "^6.4.2"
-  },
-  "keywords": [
-    "nodejs",
-    "expressjs",
-    "enterprise",
-    "enterprise",
-    "mongodb",
-    "mongoose",
-    "software",
-    "skeleton",
-    "business",
-    "logic",
-    "node",
-    "boilerplate"
-  ],
-  "author": "Neeraj Singh",
-  "license": "ISC"
+    "name": "nodexp-skeleton",
+    "version": "1.0.0",
+    "description": "Advance nodejs and expressjs skeleton for enterprise level software",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "dev": "nodemon src/app.ts"
+    },
+    "dependencies": {
+        "@types/node": "^18.0.3",
+        "dotenv": "^16.0.1",
+        "ejs": "^3.1.8",
+        "express": "^4.18.1",
+        "mongoose": "^6.4.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/okNeeraj/nodexp-skeleton.git"
+    },
+    "bugs": {
+        "url": "https://github.com/okNeeraj/nodexp-skeleton/issues"
+    },
+    "homepage": "https://github.com/okNeeraj/nodexp-skeleton#readme",
+    "keywords": [
+        "nodejs",
+        "expressjs",
+        "enterprise",
+        "enterprise",
+        "mongodb",
+        "mongoose",
+        "software",
+        "skeleton",
+        "business",
+        "logic",
+        "node",
+        "boilerplate"
+    ],
+    "author": "Neeraj Singh",
+    "license": "ISC"
 }
