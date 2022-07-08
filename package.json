@@ -7,7 +7,7 @@
         "test": "tests"
     },
     "scripts": {
-        "dev": "nodemon src/app.ts"
+        "dev": "nodemon src/server.ts"
     },
     "dependencies": {
         "dotenv": "^16.0.1",

@@ -1,15 +1,13 @@
-import express from 'express'
-import dotenv from 'dotenv'
+import Express from 'express'
+import Config from './config/app.Config'
+import Path from 'path'
+import Routes from './routes/v1/app.Route'
 
-dotenv.config()
+const App = Express()
+const appConfig = Config()
 
-const app = express()
-const port = process.env.PORT
+App.set('view engine', 'ejs')
+  .set('views', Path.join(__dirname, './views'))
+  .use(`/${appConfig.apiVersion}`, Routes)
 
-app.get('/', (req, res) => {
-  res.send('<h1>Hi, Let\'s start building your enterprise app</h1>')
-})
-
-app.listen(port, () => {
-  console.log(`⚡️[server]: Server is running at http://127.0.0.1:${port}`)
-})
+export default App
