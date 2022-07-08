@@ -9,7 +9,7 @@ const addUser = async (req: any, res: any) => {
     name: 'Neeraj Singh',
     email: 'okneerajsingh@gmail.com',
     phone: 7409116740,
-    password: '324234csd430sjldk4',
+    password: '324234csd430sjldk4'
   })
   newUser.save().then(() => console.log('New use added successfully.'))
 
