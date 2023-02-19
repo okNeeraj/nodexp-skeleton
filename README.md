@@ -4,7 +4,7 @@ Advance nodejs and expressjs skeleton for enterprise level software
 ## Getting started
 
 ### Prerequisites
-1. Intall git on your local machine
+1. Install git on your local machine
 2. Node: any 16.x version starting with v16.0.0 or greater [Node installation instructions](https://nodejs.org/en/download/)
 3. NPM : install Node Package Manager (NPM)
 4. A clone of the [nodexp-skeleton repo](https://github.com/okNeeraj/nodexp-skeleton.git) on your local machine
